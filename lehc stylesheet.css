@@ -595,46 +595,7 @@ nav {
   }
 
  
-  .home-images-row img,
-  .contact-images-row img,
-  .about-us-images-row img {
-  width: 95%;
-  min-width: 280px;
-  }
-
   
-  h2, h3, h4, h5 {
-    font-size: 24px;
-    padding: 5px;
-  }
-
-  p, .p1, .p2 {
-    padding: 10 10px;
-    font-size: 16px;
-    line-height: 1.5;
-  }
-
-  
-  .footer-container {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    gap: 20px;
-  }
-
-  .footer-column {
-    min-width: 100%;
-    max-width: none;
-    margin-bottom: 10px;
-  }
-
-  .footer-column h4 {
-    font-size: 16px;
-  }
-
-  .footer-column p, .footer-column a {
-    font-size: 16px;
-  }
 }
 
 
