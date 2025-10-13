@@ -583,8 +583,8 @@ nav {
   .home-images-row img,
   .contact-images-row img,
   .about-us-images-row img {
-  width: 90%;
-  min-width: 450px;
+  width: 95%;
+  min-width: 280px;
   }
 
   
