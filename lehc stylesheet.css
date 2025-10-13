@@ -535,17 +535,14 @@ nav a:hover {
   html, body {
 font-size: 14px;
  overflow-x: hidden;
-.contact-page,
-.contact-page p,
-.contact-page h2,
-.contact-page h3,
-.contact-page h4 {
-font-size: 19px; 
-line-height: 1.7;
-}
-
   }
 
+.contact-page,
+.contact-page p,
+.contact-page h5 {
+font-size: 18px; 
+line-height: 1.7;
+}
 
   nav {
     flex-direction: column;
@@ -592,13 +589,13 @@ line-height: 1.7;
 
   
   h2, h3, h4, h5 {
-    font-size: 22px;
+    font-size: 24px;
     padding: 5px;
   }
 
   p, .p1, .p2 {
     padding: 0 10px;
-    font-size: 15px;
+    font-size: 16px;
     line-height: 1.5;
   }
 
