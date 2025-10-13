@@ -504,7 +504,7 @@ nav a:hover {
 }
 
 .footer-bottom p {
-  margin: 0;
+  margin: 20px;
 }
 
 @media (max-width: 768px) {
@@ -541,10 +541,10 @@ font-size: 14px;
 .contact-page p,
 .contact-page h5 {
 font-size: 18px; 
-line-height: 1.7;
+line-height: 1.6;
 }
 
-  nav {
+nav {
     flex-direction: column;
     align-items: center;
     padding: 10px;
