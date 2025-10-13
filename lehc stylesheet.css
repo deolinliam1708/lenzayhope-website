@@ -434,7 +434,7 @@ nav a:hover {
 .site-footer {
   background-color: rgba(4, 9, 27, 0.9);
   color: #ffffff;
-  padding: 10px 15px;
+  padding: 12px 15px;
   text-align: center;
   font-family: 'Arial', sans-serif;
   position: relative;
@@ -470,18 +470,18 @@ nav a:hover {
 }
 
 .footer-column p {
-  font-size: 15px;
+  font-size: 17px;
   line-height: 1.4;
 }
 
 .footer-column ul {
   list-style: none;
   padding: 0;
-  margin: 10px;
+  margin: 15px;
 }
 
 .footer-column li {
-  margin: 10px 0;
+  margin: 12px 0;
 }
 
 .footer-column a {
@@ -499,7 +499,7 @@ nav a:hover {
   margin-top: 20px;
   border-top: 1px solid #2c3e8b;
   padding-top: 8px;
-  font-size: 15px;
+  font-size: 17px;
   color: #c0c0c0;
 }
 
@@ -594,7 +594,7 @@ nav {
   }
 
   p, .p1, .p2 {
-    padding: 0 10px;
+    padding: 10 10px;
     font-size: 16px;
     line-height: 1.5;
   }
@@ -618,7 +618,7 @@ nav {
   }
 
   .footer-column p, .footer-column a {
-    font-size: 14px;
+    font-size: 16px;
   }
 }
 
