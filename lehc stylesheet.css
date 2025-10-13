@@ -533,7 +533,6 @@ nav a:hover {
 }
 
 
-
 .email-link, .gmail-link {
   color: #0d1d56;
   text-decoration: none;
@@ -542,6 +541,7 @@ nav a:hover {
 .email-link:hover, .gmail-link:hover {
   text-decoration: underline;
 }
+
 
 
   @media (max-width: 768px) {
