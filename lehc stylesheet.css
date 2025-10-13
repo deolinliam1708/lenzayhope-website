@@ -542,11 +542,7 @@ nav a:hover {
 .email-link:hover, .gmail-link:hover {
   text-decoration: underline;
 }
-}
 
-
-
-@media (max-width: 768px) {
   
   html, body {
 font-size: 14px;
