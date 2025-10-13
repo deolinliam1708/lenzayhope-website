@@ -81,7 +81,7 @@ html, body {
 }
 
 @media (max-width: 768px) {
-  .gallery-row img {
+  .home-images-row img {
     width: 80%;
   }
 }
@@ -347,7 +347,7 @@ nav a:hover {
 }
 
 .contact-images-row img {
-  width: 33%;
+  width: 35%;
   min-width: 250px;
   border-radius: 10px;
   object-fit: cover;
@@ -361,7 +361,7 @@ nav a:hover {
 }
 
 @media (max-width: 768px) {
-  .gallery-row img {
+  .contact-images-row img {
     width: 80%;
   }
 }
@@ -411,7 +411,7 @@ nav a:hover {
 }
 
 .about-us-images-row img {
-  width: 35%;
+  width: 33%;
   min-width: 250px;
   border-radius: 10px;
   object-fit: cover;
@@ -425,7 +425,7 @@ nav a:hover {
 }
 
 @media (max-width: 768px) {
-  .gallery-row img {
+  .about-us-images-row img {
     width: 80%;
   }
 }
@@ -526,7 +526,7 @@ nav a:hover {
   .footer-column{
     font-size: 16px;
   }
-  
+
 .footer-column p, .footer-column a {
     font-size: 16px;
   }
@@ -549,13 +549,13 @@ nav a:hover {
   
   html, body {
 font-size: 14px;
- overflow-x: hidden;
+ 
   }
 
 .contact-page,
 .contact-page p,
 .contact-page h5 {
-font-size: 18px; 
+font-size: 17px; 
 line-height: 1.6;
 }
 
@@ -567,13 +567,13 @@ nav {
   }
 
   nav img {
-    width: 150px;
+    width: 160px;
     margin-bottom: 10px;
   }
 
   nav a {
     display: block;
-    margin: 8px 0;
+    margin: 10px 0;
     font-size: 20px;
   }
 
