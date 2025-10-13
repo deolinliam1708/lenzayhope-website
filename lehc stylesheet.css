@@ -498,6 +498,7 @@ nav a:hover {
 
 .footer-bottom {
   margin-top: 20px;
+  margin-bottom: 0px;
   border-top: 1px solid #2c3e8b;
   padding-top: 8px;
   font-size: 17px;
@@ -640,7 +641,7 @@ nav {
 
 @media (max-width: 480px) {
   h1 { font-size: 22px; }
-  h2, h3, h4, h5 { font-size: 18px; }
-  nav a { font-size: 18px; }
+  h2, h3, h4, h5 { font-size: 20px; }
+  nav a { font-size: 10px; }
   .button { font-size: 14px; padding: 6px 14px; }
 }
