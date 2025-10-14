@@ -169,7 +169,7 @@ h1 {
   transform: translateX(-50%);
   width: 60%;
   height: 3px;
-  background: linear-gradient(90deg, #0d1d56, #243c8f, #0d1d56);
+  background: linear-gradient(90deg, #0d1d56, #2547c3, #0d1d56);
   border-radius: 3px;
 }
 
@@ -215,7 +215,7 @@ h4{
   transform: translateX(-50%);
   width: 60%;
   height: 3px;
-  background: linear-gradient(90deg, #0d1d56, #243c8f, #0d1d56);
+  background: linear-gradient(90deg, #0d1d56, #2443b5, #0d1d56);
   border-radius: 3px;
 }
 
