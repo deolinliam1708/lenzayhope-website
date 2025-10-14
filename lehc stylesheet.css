@@ -627,12 +627,12 @@ nav {
 
   nav a {
     display: inline-block;
-    margin: 12px 0;
+    margin: 10px 0;
     padding: 10px 20px;
     font-size: 24px; 
     color: #ffffff;
-    border-radius: 6px;
-    width: 82%;
+    border-radius: 4px;
+    width: 80%;
     max-width: 280px;
     text-align: center;
     transition: all 0.3s ease;
