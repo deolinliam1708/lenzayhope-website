@@ -530,6 +530,32 @@ nav a:hover {
 .footer-column p, .footer-column a {
     font-size: 16px;
   }
+
+
+  .footer-column h4 {
+    font-size: 20px;       
+    color: #ffffff;        
+    font-weight: bold;
+    border-bottom: 2px solid #2c3e8b;
+    padding-bottom: 6px;
+  }
+
+  .footer-column p,
+  .footer-column ul,
+  .footer-column li,
+  .footer-column a {
+    font-size: 17px;       
+    line-height: 1.6;
+  }
+
+  .footer-column a {
+    color: #d0d0d0;
+  }
+
+  .footer-column a:hover {
+    color: #ffffff;
+    transform: none;
+  }
 }
 
 
@@ -553,8 +579,8 @@ font-size: 14px;
 .contact-page,
 .contact-page p,
 .contact-page h5 {
-font-size: 17px; 
-line-height: 1.6;
+font-size: 16px; 
+line-height: 1.5;
 }
 
 nav {
@@ -610,24 +636,6 @@ nav {
     padding: 10px 10px;
     font-size: 16px;
     line-height: 1.5;
-  }
-
-  
-  .footer-container {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    gap: 20px;
-  }
-
-  .footer-column {
-    min-width: 100%;
-    max-width: none;
-    margin-bottom: 10px;
-  }
-
-  .footer-column h4 {
-    font-size: 16px;
   }
 
   .footer-column p, .footer-column a {
