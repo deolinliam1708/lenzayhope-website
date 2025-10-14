@@ -626,12 +626,11 @@ nav {
   }
 
   nav a {
-    display: block;
+    display: inline-block;
     margin: 12px 0;
     padding: 10px 20px;
     font-size: 24px; 
     color: #ffffff;
-    background: linear-gradient(90deg, #0d1d56, #2547c3);
     border-radius: 6px;
     width: 82%;
     max-width: 280px;
@@ -640,7 +639,6 @@ nav {
   }
 
    nav a:hover {
-    background: linear-gradient(90deg, #2547c3, #0d1d56);
     transform: translateY(-3px) scale(1.03);
   }
 
