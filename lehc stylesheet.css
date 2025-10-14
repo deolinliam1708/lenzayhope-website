@@ -617,6 +617,8 @@ nav {
     align-items: center;
     padding: 10px;
     text-align: center;
+    background-color: rgba(4, 9, 27, 0.9); 
+    border-radius: 10px;
   }
 
   nav img {
@@ -626,8 +628,23 @@ nav {
 
   nav a {
     display: block;
-    margin: 10px 0;
-    font-size: 26px;
+    margin: 12px 0;
+    padding: 10px 20px;
+    font-size: 22px; /* Bigger and easier to tap */
+    color: #ffffff;
+    background: linear-gradient(90deg, #0d1d56, #2547c3);
+    border-radius: 6px;
+    width: 80%;
+    max-width: 280px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+  }
+
+   nav a:hover {
+    background: linear-gradient(90deg, #2547c3, #0d1d56);
+    transform: translateY(-3px) scale(1.03);
+    box-shadow: 0 4px 15px rgba(18, 54, 182, 0.6);
   }
 
   
