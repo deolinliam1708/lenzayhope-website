@@ -508,7 +508,55 @@ nav a:hover {
   margin: 10px;
 }
 
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 20px;
+  }
 
+  .footer-column {
+    text-align: center;
+    min-width: 100%;
+    max-width: none;
+    margin-bottom: 20px;
+  }
+
+  .footer-column{
+    font-size: 16px;
+  }
+
+.footer-column p, .footer-column a {
+    font-size: 16px;
+  }
+
+
+  .footer-column h4 {
+    font-size: 20px;       
+    color: #ffffff;        
+    font-weight: bold;
+    border-bottom: 2px solid #2c3e8b;
+    padding-bottom: 6px;
+  }
+
+  .footer-column p,
+  .footer-column ul,
+  .footer-column li,
+  .footer-column a {
+    font-size: 17px;       
+    line-height: 1.6;
+  }
+
+  .footer-column a {
+    color: #d0d0d0;
+  }
+
+  .footer-column a:hover {
+    color: #ffffff;
+    transform: none;
+  }
+}
 
 
 .email-link, .gmail-link {
