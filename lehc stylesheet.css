@@ -642,7 +642,6 @@ nav {
    nav a:hover {
     background: linear-gradient(90deg, #2547c3, #0d1d56);
     transform: translateY(-3px) scale(1.03);
-    box-shadow: 0 4px 15px rgba(18, 54, 182, 0.6);
   }
 
   
