@@ -596,9 +596,9 @@ nav {
   }
 
   nav a {
-    display: inline-block;
+    display: inline-flex;
     margin: 10px 0;
-    font-size: 23px;
+    font-size: 26px;
   }
 
   
