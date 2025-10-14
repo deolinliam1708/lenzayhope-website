@@ -258,23 +258,23 @@ opacity: 0;
 animation: slideInUp 1s ease forwards;
   }
 
-  h2, h3, h4, h5{
+  h1, h2, h3, h4, h5{
     opacity: 0;
   animation: slideInLeft 1s ease forwards;
   }
 
-   h2, h3, h5{
+   h1, h2, h3, h5{
   animation-delay: 0.3s;
   }
 
   h4{
-   animation-delay: 0.6s; 
+   animation-delay: 0.7s; 
   }
 
   p, .p1, .p2{
-    animation-delay: 0.9s;
+    animation-delay: 1s;
   }
-  
+
 @keyframes slideInUp {
   0% {
     opacity: 0;
@@ -334,7 +334,20 @@ box-shadow: 0 8px 20px rgba(18, 54, 182, 0.8);
       justify-content: space-between;
       align-items: center;
       padding: 20px;
+      animation: fadeDown 1s ease forwards;
+      opacity: 0;
     }
+
+    @keyframes fadeDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 
 nav img{
  width: 220px;
@@ -342,6 +355,8 @@ nav img{
  border-radius: 15px; 
  opacity: 0.9; 
  transition: transform 0.3s ease, opacity 0.3s ease;
+ animation: slideInLeft 1s ease forwards;
+ opacity: 0;
 }
 
 nav img:hover {
@@ -350,13 +365,16 @@ nav img:hover {
   
 }
 
-    nav a {
-      color: #fff;
-      text-decoration: none;
-      margin-left: 30px;
-      font-weight: bold;
-      font-size: 26px;
-      display: inline-block;
+nav a {
+   color: #fff;
+   text-decoration: none;
+   margin-left: 30px;
+   font-weight: bold;
+   font-size: 26px;
+   display: inline-block;
+   animation: slideInRight 1s ease forwards;
+   opacity: 0;
+   animation-delay: 0.3s; /* start slightly after logo */
     }
 
 nav a:hover {
@@ -365,6 +383,19 @@ nav a:hover {
   box-shadow: 0 8px 20px rgba(18, 54, 182, 0.8);
   
 }
+
+
+@keyframes slideInLeft {
+  0% { opacity: 0; transform: translateX(-60px); }
+  100% { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes slideInRight {
+  0% { opacity: 0; transform: translateX(60px); }
+  100% { opacity: 1; transform: translateX(0); }
+}
+
+
 
         @media (max-width: 768px) {
       nav {
