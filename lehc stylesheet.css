@@ -330,7 +330,7 @@ animation: slideInUp 1s ease forwards;
   }
 
   p, .p1, .p2{
-    animation-delay: 1.2s;
+    animation-delay: 1s;
   }
 
 @keyframes slideInUp {
