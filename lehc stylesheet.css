@@ -221,15 +221,31 @@ h1 {
   }
 
 
-h3{
-      color: #000000; 
-			font-family:'Comic Sans';
-      font-size: 36px;
-			text-align: center;
-      padding: 10px, 10px;
-      margin-bottom: 5px;
-			
-        }
+ h3{
+   color: #000000; 
+   font-family:'Comic Sans';
+   font-size: 34px;
+	 text-align: center;
+	 padding: 10px 10px;
+   display: inline-block;
+   margin-bottom: 15px;
+   align-items: center;
+   position: relative;
+    }
+
+  h3::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 60%;
+  height: 3px;
+  background: linear-gradient(90deg, #0d1d56, #2547c3, #0d1d56);
+  border-radius: 3px;
+}
+
+
         
 h4{
           
@@ -264,6 +280,13 @@ h4{
    padding: 10px, 10px;
    margin-bottom: 5px;
   }
+
+  ul {
+  list-style-type: none; 
+  padding-left: 0;       
+  margin-left: 0;        
+}
+
 
   .contact-page{
      font-family: 'Arial';
