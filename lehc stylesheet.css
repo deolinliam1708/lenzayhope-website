@@ -594,7 +594,7 @@ nav a:hover {
 
 .home-requirements-pic-row img:hover {
   transform: translateY(-5px) scale(1.05);
-  box-shadow: 0 8px 20px rgba(18, 54, 182, 0.8);
+ box-shadow: 0 8px 20px rgba(18, 54, 182, 0.8);
 }
 
 
