@@ -600,7 +600,7 @@ nav a:hover {
 
 @media (max-width: 768px) {
   .home-requirements-pic-row img {
-    width: 70%;
+    width: 65%;
     clip-path: polygon(
       50% 0%,
       93% 25%,
@@ -894,7 +894,7 @@ nav {
 
   
   h2, h3, h4, h5 {
-    font-size: 23px;
+    font-size: 22px;
     padding: 5px;
   }
 
