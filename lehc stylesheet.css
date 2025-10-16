@@ -559,6 +559,60 @@ nav a:hover {
   box-shadow: 0 8px 20px rgba(18, 54, 182, 0.8);
 }
 
+.home-requirements-pic {
+  padding: 30px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.home-requirements-pic-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  max-width: 1200px;
+}
+
+
+.home-requirements-pic-row img {
+  width: 30%;
+  min-width: 250px;
+  aspect-ratio: 1;
+  object-fit: cover;
+  clip-path: polygon(
+    50% 0%,   /* top */
+    93% 25%,  /* top right */
+    93% 75%,  /* bottom right */
+    50% 100%, /* bottom */
+    7% 75%,   /* bottom left */
+    7% 25%    /* top left */
+  );
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+
+.home-requirements-pic-row img:hover {
+  transform: translateY(-5px) scale(1.05);
+  box-shadow: 0 8px 20px rgba(18, 54, 182, 0.8);
+}
+
+
+@media (max-width: 768px) {
+  .home-requirements-pic-row img {
+    width: 80%;
+    clip-path: polygon(
+      50% 0%,
+      93% 25%,
+      93% 75%,
+      50% 100%,
+      7% 75%,
+      7% 25%
+    );
+  }
+}
+
+
 @media (max-width: 768px) {
   .contact-images-row img {
     width: 80%;
